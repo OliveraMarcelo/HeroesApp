@@ -12,7 +12,8 @@ export const HeroesRoute = () => {
                 <Route path="marvel" element={<MarvelPage />}></Route>
                 <Route path="dc" element={<DCPage />}></Route>
                 <Route path="search" element={<SearchPage />}></Route>
-                <Route path="heroes" element={<HeroesPage/>}></Route>
+                {/* aca estamos utilizando hero:id para poder utilizar rutas dinamicas  */}
+                <Route path="hero/:id" element={<HeroesPage/>}></Route>
 
                 {/* to do : search for heroe by id  */}
                 <Route path="/" element={<Navigate to="marvel" />}></Route>

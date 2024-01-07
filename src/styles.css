@@ -1,0 +1,16 @@
+    
+
+@media (max-width: 560px) {
+    /* Ocultar elementos en pantallas más pequeñas (hasta 767px) */
+    .breakpoint-disabled-items{
+        display: none !important;
+    }
+    .items-breakpoint{
+
+    }
+    .navbar_custom{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+  }
