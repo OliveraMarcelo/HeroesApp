@@ -20,7 +20,7 @@ export const HeroesPage = () => {
   */
   const onNavigateBack = 
   ()=>{
-    navigate(`/${hero.id.split('-')[0]}`);
+    navigate(-1);
   }
 
   if (!hero) {
@@ -32,7 +32,7 @@ export const HeroesPage = () => {
         <img 
         src={`/assets/heroes/${hero.id}.jpg`} 
         alt= {hero.superhero}
-        className="img-thumbnail"
+        className="img-thumbnail animate__animated animate__fadeInLeft"
         />
       </div>
       <div className="col-8">

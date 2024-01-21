@@ -11,7 +11,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearence
         
     }
     return (
-        <div className='col-6 col-md-4 col-sm-6 '>
+        <div className='col-6 col-md-4 col-sm-6 animate__animated animate__fadeIn'>
             <div className='card '>
                 <div className='row no-gutters '>
                     <div className='col-4 ' >
